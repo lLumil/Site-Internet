@@ -1,0 +1,55 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.bandeau {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(1, 45, 148)),to(rgb(3, 38, 121)));
+    color: white;
+    padding-top: none;
+    text-align: center;
+    font-family:sans-serif;
+    border: #000000;
+    border-style: solid;
+    border-radius: 2px;
+    box-shadow: 7px 2px 50px black;
+}
+
+
+section {
+    font-family: sans-serif, "Gill Sans";
+    font-size: x-large;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 50px;
+  }
+  button {
+    position: absolute;
+    left: 10px;
+    text-align: center;
+    background-color: #9ee3ff;
+    font-family: sans-serif, "Gill Sans";
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+  
+  img {
+    width: 60%;
+  }
+
+  .ecart {
+    height: 50px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(1, 45, 148)),to(rgb(3, 38, 121)));
+    color: white;
+    text-align: center;
+    font-size: larger;
+    font-family: "Gill Sans", sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  section div {
+    padding-bottom: 10px;
+  }

@@ -1,0 +1,163 @@
+html {
+  scroll-behavior: smooth;
+}
+
+head {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(200, 200, 200)), to(rgb(180,180,180)));
+}
+
+.en-tete {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(180, 180, 180)), to(rgb(200,200,200)));
+}
+
+.bandeau {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(1, 45, 148)),to(rgb(3, 38, 121)));
+  color: white;
+  padding-top: none;
+  text-align: center;
+  font-family:sans-serif;
+  border: #000000;
+  border-style: solid;
+  border-radius: 2px;
+  box-shadow: 7px 2px 50px black;
+}
+
+.mainmenubtn {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(1, 45, 148)),to(rgb(3, 38, 121)));
+  color: white;
+  border-style:solid;
+  cursor: pointer;
+  padding:20px;
+  margin-top:20px;
+  margin-left: 20px;
+}
+
+.mainmenubtn:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(1, 45, 148)),to(rgb(3, 38, 121)));
+}
+
+.dropdown {
+  position: absolute;
+  display: inline-block;
+  top: 4px;
+  left: 4px;
+}
+
+.dropdown-child {
+  display: none;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(1, 45, 148)),to(rgb(3, 38, 121)));
+  min-width: 200px;
+  position: absolute;
+}
+
+.dropdown-child a {
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown:hover .dropdown-child {
+  display: block;
+}
+
+.logo {
+  text-align: center;
+}
+
+.section_logo {
+  background-image: url(images/arriere\ plan2.png);
+  background-size: cover;
+}
+
+.section_logo img{
+  opacity: 1;
+  width: 100%;
+}
+
+.information {
+  text-align: center;
+  font-family: "Gill Sans", sans-serif;
+  padding-top: 20px;
+  border-style: solid;
+}
+
+.section_intro {
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: auto;
+  text-align: center;
+  font-size: medium;
+  font-family: "Gill Sans", sans-serif;
+}
+
+.intro {
+  font-size:x-large;
+  vertical-align: middle;
+  font-family: "Gill Sans", sans-serif;
+  margin-left: 20%;
+  margin-right: 20% ;
+}
+
+.ecart {
+  height: 50px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(1, 45, 148)),to(rgb(3, 38, 121)));
+  color: white;
+  text-align: center;
+  font-size: larger;
+  font-family: "Gill Sans", sans-serif;
+}
+
+.activité {
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: auto;
+  text-align: center;
+  font-size: x-large;
+  font-family: "Gill Sans", sans-serif;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.services {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: x-large;
+  font-family: "Gill Sans", sans-serif;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.Devis {
+  height: 50px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(1, 45, 148)),to(rgb(3, 38, 121)));
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  font-size: larger;
+  font-family: "Gill Sans", sans-serif;
+}
+
+.information h3 {
+  color: rgb(3, 38, 121) ;
+}
+
+.retour {
+  position: sticky;
+  bottom: 5px;
+  right: 5px;
+}
+
+.services button {
+  background-color: #9ee3ff;
+  height: 50px;
+  width: 150px;
+  font-family: "Gill Sans", sans-serif;
+  font-size: large;
+}
+
+.services div{
+  padding-bottom: 10px;
+}
